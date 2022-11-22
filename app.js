@@ -36,7 +36,7 @@ app.post('/', (req, res) => {
   const jsonData = JSON.stringify(data);
   const options = {
     method: "POST",
-    auth: "nil:9f91fd20c11f2ba2b821cf6646fa419e-us21"
+    auth: "nil:nil"
   }; // HTTPS auth method
   const url = "https:/us21.api.mailchimp.com/3.0/lists/ae97040f2b"; //endpoint url
   const respo = https.request(url, options, (response) => {
